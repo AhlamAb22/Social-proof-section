@@ -94,7 +94,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 15px;
+    margin: 10px;
     padding: 5.4em 1.6em;
     background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
     background-position: top left, bottom right;
@@ -103,15 +103,21 @@ body {
     font-family: 'League Spartan', sans-serif;
 }
 
-.container{
-    display: flex;
+.container {
+    display: grid;
     flex-direction: column;
     gap: 1.5rem;
+}
+
+.intro{
+    max-width: 17.5rem;
+    margin: auto;
 }
 
 .heading {
     color: var(--Very-Dark-Magenta);
     line-height: 2rem;
+    font-size: 2rem;
 }
 
 .description {
@@ -127,7 +133,7 @@ body {
 
 .rating-box {
     background-color: var(--Light-Grayish-Magenta);
-    padding: 20px;
+    padding: 15px;
     border-radius: 7px;
     color: var(--Very-Dark-Magenta);
     font-weight: var(--bold--font);
@@ -138,9 +144,11 @@ body {
     justify-content: center;
 }
 
-.stars-container{
+.stars-container {
     display: flex;
+    gap: .5rem;
 }
+
 /* style reviews */
 .reviews {
     display: flex;
@@ -149,7 +157,7 @@ body {
     color: var(--White);
 }
 
-.review-box{
+.review-box {
     background-color: var(--Very-Dark-Magenta);
     padding: 10px;
     border-radius: 7px;
@@ -158,18 +166,18 @@ body {
     height: 13rem;
 }
 
-.profile-info{
+.profile-info {
     display: flex;
     gap: 1rem;
 }
 
-.personal-picture{
+.personal-picture {
     border-radius: 50%;
     max-width: 50px;
     max-height: 50px;
 }
 
-span{
+span {
     color: var(--Soft-Pink);
 }
 @media (min-width: 37.5rem) {
