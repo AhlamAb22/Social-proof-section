@@ -207,7 +207,6 @@ span {
         grid-template-rows: auto auto;
         grid-gap: 3rem;
         justify-items: center;
-        max-width: 59.5rem;
     }
 
     .intro {
@@ -217,9 +216,9 @@ span {
     }
 
     .heading {
-        font-size: 3rem;
-        line-height: 2.5rem;
-        max-width: 20rem;
+        font-size: 3.5rem;
+        line-height: 3rem;
+        max-width: 30rem;
     }
 
     .description{
@@ -233,7 +232,7 @@ span {
     }
 
     .rating-box {
-        padding: 10px 5px;
+        padding: 15px 10px;
         display: flex;
         flex-direction: row;
         align-items: center;
