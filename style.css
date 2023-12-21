@@ -110,8 +110,11 @@ body {
 }
 
 .intro{
-    max-width: 17.5rem;
+    /* max-width: 17.5rem; */
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .heading {
@@ -181,6 +184,14 @@ span {
     color: var(--Soft-Pink);
 }
 
+
+
+
+
+
+
+
+
 @media (min-width: 37.5rem) {
     body {
         display: flex;
@@ -206,22 +217,28 @@ span {
     }
 
     .heading {
-        max-width: 15rem;
+        font-size: 2.5rem;
+        max-width: 20rem;
+    }
+
+    .description{
+        max-width: 25rem;
     }
 
     .rating {
         grid-column: 2;
         grid-row: 1;
+        gap: 1rem;
     }
 
     .rating-box {
-        padding: 10px;
+        padding: 10px 5px;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         gap: .5rem;
-        width: 30rem;
+        width: 25rem;
     }
 
     .stars-container {
@@ -238,14 +255,12 @@ span {
 
     .reviews {
         grid-column: 1 / span 2;
-        /* Span reviews across both columns */
         grid-row: 2;
-        /* Place reviews in the second row */
+        gap: 1.5rem;
         display: flex;
         flex-direction: row;
         max-width: 60rem;
         text-align: left;
-        /* Additional styling if needed */
     }
 
     .review-box.box2 {
