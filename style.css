@@ -199,14 +199,14 @@ span {
         align-items: center;
         justify-content: center;
         background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
-        padding: 50px;
+        padding: 30px 50px;
     }
 
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 5rem;
+        grid-gap: 3rem;
         justify-items: center;
         max-width: 65rem;
     }
