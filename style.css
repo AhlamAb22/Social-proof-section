@@ -206,7 +206,7 @@ span {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 4rem;
+        grid-gap: 5rem;
         justify-items: center;
         max-width: 65rem;
     }
