@@ -217,7 +217,8 @@ span {
     }
 
     .heading {
-        font-size: 2.5rem;
+        font-size: 3rem;
+        line-height: 2.5rem;
         max-width: 20rem;
     }
 
@@ -257,10 +258,14 @@ span {
         grid-column: 1 / span 2;
         grid-row: 2;
         gap: 1.5rem;
-        display: flex;
-        flex-direction: row;
-        max-width: 60rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         text-align: left;
+    }
+
+    .review-box{
+        padding: 30px;
+        min-height: 15rem;
     }
 
     .review-box.box2 {
