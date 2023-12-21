@@ -199,6 +199,7 @@ span {
         align-items: center;
         justify-content: center;
         background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+        padding: 50px;
     }
 
     .container {
@@ -238,7 +239,7 @@ span {
         align-items: center;
         justify-content: center;
         gap: .5rem;
-        width: 25rem;
+        width: 30rem;
     }
 
     .stars-container {
