@@ -208,7 +208,7 @@ span {
         grid-template-rows: auto auto;
         grid-gap: 3rem;
         justify-items: center;
-        max-width: 60rem;
+        max-width: 65rem;
     }
 
     .intro {
