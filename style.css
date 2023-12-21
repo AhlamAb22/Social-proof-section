@@ -109,7 +109,7 @@ body {
     gap: 1.5rem;
 }
 
-.intro{
+.intro {
     /* max-width: 17.5rem; */
     margin: auto;
     display: flex;
@@ -199,16 +199,18 @@ span {
         align-items: center;
         justify-content: center;
         background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
-        padding: 30px 50px;
+        padding: 5.4em 1.6em;
     }
 
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 3rem;
+        /* grid-gap: 4rem; */
         justify-items: center;
-        max-width: 65rem;
+        /* max-width: 65rem; */
+        gap: 5em;
+        max-width: 1110px;
     }
 
     .intro {
@@ -223,7 +225,7 @@ span {
         max-width: 30rem;
     }
 
-    .description{
+    .description {
         max-width: 25rem;
     }
 
@@ -264,7 +266,7 @@ span {
         text-align: left;
     }
 
-    .review-box{
+    .review-box {
         padding: 30px;
         min-height: 15rem;
     }
