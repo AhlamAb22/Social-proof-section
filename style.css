@@ -173,7 +173,7 @@ span{
     color: var(--Soft-Pink);
 }
 @media (min-width: 37.5rem) {
-    body {
+     body {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -185,7 +185,7 @@ span{
       display: grid;
       grid-template-columns: 1fr 1fr; /* Two columns */
       grid-template-rows: auto auto; /* Two rows */
-      grid-gap: 20px; /* Gap between grid items */
+      grid-gap: 3rem; /* Gap between grid items */
       justify-items: center; /* Center content horizontally in the grid */
       max-width: 59.5rem; /* Adjust maximum width as needed */
     }
@@ -209,7 +209,7 @@ span{
     }
   
     .rating-box {
-      padding: 10px 30px;
+      padding: 20px;
       display: flex;
       flex-direction: row;
       align-items: center;
