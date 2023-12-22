@@ -185,19 +185,13 @@ body {
 
 .name{
     font-weight: var(--Medium-font);
+    line-height: 1.2rem;
 }
 
 span {
     font-weight: var(--regular--font);
     color: var(--Soft-Pink);
 }
-
-
-
-
-
-
-
 
 
 @media (min-width: 37.5rem) {
@@ -236,19 +230,20 @@ span {
     }
 
     .rating-box {
-        padding: 15px 30px;
+        /* padding: 15px 30px; */
         flex-direction: row;
-        gap: .5rem;
-        width: 30rem;
-        justify-content: space-between;
+        gap: 1.5rem;
+        width: 25rem;
+        justify-content: left;
+
     }
 
     .rating-box.box2 {
-        margin-left: 25px;
+        margin-left: 100px;
     }
 
     .rating-box.box3 {
-        margin-left: 50px;
+        margin-left: 200px;
     }
 
     .reviews {
