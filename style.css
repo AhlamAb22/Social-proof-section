@@ -103,6 +103,7 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     font-family: 'League Spartan', sans-serif;
+    font-weight: var(--Medium-font);
 }
 
 .container {
@@ -127,7 +128,6 @@ body {
 
 .description {
     color: var(--Dark-Grayish-Magenta);
-    font-weight: var(--Medium-font);
 }
 
 /* style rating */
@@ -169,7 +169,6 @@ body {
     display: grid;
     gap: .5rem;
     height: 13rem;
-    font-weight: var(--Medium-font);
 }
 
 .profile-info {
@@ -184,7 +183,6 @@ body {
 }
 
 .name{
-    font-weight: var(--Medium-font);
     line-height: 1.2rem;
 }
 
@@ -203,7 +201,7 @@ span {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
         gap: 5em;
-        max-width: 1110px;
+        max-width: 69.375rem;
     }
 
     .intro {
@@ -222,6 +220,8 @@ span {
         max-width: 25rem;
     }
 
+    /* style rating  */
+
     .rating {
         grid-column: 2;
         grid-row: 1;
@@ -239,13 +239,14 @@ span {
     }
 
     .rating-box.box2 {
-        margin-left: 100px;
+        margin-left: 6.25em;
     }
 
     .rating-box.box3 {
-        margin-left: 200px;
+        margin-left: 12.5em;
     }
 
+    /* style reviews */
     .reviews {
         grid-column: 1 / span 2;
         grid-row: 2;
