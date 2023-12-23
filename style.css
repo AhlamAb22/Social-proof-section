@@ -215,7 +215,7 @@ span {
         font-size: 3.5rem;
         line-height: 3rem;
         max-width: 30rem;
-        letter-spacing: -2.5rem;
+        letter-spacing: -2.5px;
     }
 
     .description {
