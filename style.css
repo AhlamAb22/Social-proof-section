@@ -260,6 +260,7 @@ span {
     .review-box {
         padding: 30px;
         min-height: 15rem; 
+        line-height: 1.5rem;
     }
 
     .review-box.box1 {
