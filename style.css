@@ -123,8 +123,7 @@ body {
 .heading {
     color: var(--Very-Dark-Magenta);
     line-height: 2rem;
-    /* font-size: 2rem; */
-    font-size: clamp(2rem, 1rem + 0.8vw, 3rem);
+    font-size: clamp(2.5rem, 1rem + 0.8vw, 4rem);
 }
 
 .description {
