@@ -123,7 +123,7 @@ body {
 .heading {
     color: var(--Very-Dark-Magenta);
     line-height: 2rem;
-    font-size: clamp(2.5rem, 1rem + 0.8vw, 4rem);
+    font-size: 2rem;
 }
 
 .description {
@@ -196,6 +196,7 @@ span {
     body {
         background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
     }
+    
 
     .container {
         grid-template-columns: 1fr 1fr;
@@ -256,7 +257,7 @@ span {
 
     .review-box {
         padding: 30px;
-        min-height: 15rem;
+        min-height: 15rem; 
     }
 
     .review-box.box1 {
