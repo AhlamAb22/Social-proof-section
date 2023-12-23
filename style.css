@@ -211,11 +211,12 @@ span {
         text-align: left;
     }
 
-    .heading {
-        font-size: 4rem;
-        line-height: 3rem;
-        max-width: 30rem;
+      .heading {
+        font-size: 3.8em;
         letter-spacing: -2.5px;
+        line-height: 0.85em;
+        margin: 0;
+        max-width: 30rem;
     }
 
     .description {
