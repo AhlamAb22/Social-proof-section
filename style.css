@@ -167,7 +167,7 @@ body {
     padding: 10px;
     border-radius: 7px;
     display: grid;
-    height: 13rem;
+/*     height: 13rem; */
     font-weight: var(--Medium-font);
 }
 
