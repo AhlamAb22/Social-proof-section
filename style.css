@@ -167,8 +167,6 @@ body {
     padding: 10px;
     border-radius: 7px;
     display: grid;
-/*     height: 13rem; */
-    font-weight: var(--Medium-font);
 }
 
 .profile-info {
@@ -258,8 +256,8 @@ span {
     }
 
      .review-box {
-        padding: 40px 35px 0px 35px;
-        min-height: 15rem;
+        padding: 35px;
+        min-height: 13rem;
         line-height: 1.3rem;
     }
 
