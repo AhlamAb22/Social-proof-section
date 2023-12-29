@@ -130,6 +130,7 @@ body {
     color: var(--Dark-Grayish-Magenta);
 }
 
+
 /* style rating */
 .rating {
     display: flex;
@@ -142,17 +143,18 @@ body {
     padding: 15px;
     border-radius: 7px;
     color: var(--Very-Dark-Magenta);
+    font-size: 17px;
     font-weight: var(--bold--font);
     display: flex;
     flex-direction: column;
-    gap: .3rem;
     align-items: center;
     justify-content: center;
+    min-width: 445px;
 }
 
 .stars-container {
     display: flex;
-    gap: .5rem;
+    gap: 8px;
 }
 
 /* style reviews */
@@ -165,7 +167,7 @@ body {
 .review-box {
     background-color: var(--Very-Dark-Magenta);
     padding: 10px;
-    border-radius: 7px;
+    border-radius: 8px;
     display: grid;
 }
 
@@ -182,6 +184,8 @@ body {
 
 .name{
     line-height: 1.2rem;
+    margin-bottom: 4px;
+    font-weight: var(--bold--font);
 }
 
 span {
@@ -201,6 +205,12 @@ span {
         grid-template-rows: auto auto;
         gap: 6.2em;
         max-width: 69.375rem;
+    }
+
+    .group1{
+        display: flex;
+        width: 1110px;
+        gap: 125px;
     }
 
     .intro {
@@ -250,16 +260,22 @@ span {
     .reviews {
         grid-column: 1 / span 2;
         grid-row: 2;
-        gap: 1.5rem;
+        gap: 1.875rem;
         grid-template-columns: 1fr 1fr 1fr;
         text-align: left;
+        height: 266px;
+        width: 1110px;
     }
 
      .review-box {
         padding: 36px;
         min-height: 13rem;
-        line-height: 1.3rem;
-        gap: 2rem;
+        line-height: 22px;
+        gap: 1rem;
+        width: 350px;
+        height: 234px;
+        font-size: 17px;
+        font-weight: var(--Medium-font);
     }
 
     .review-box.box1 {
