@@ -202,7 +202,7 @@ span {
     .container {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
-/*         gap: 6.2em; */
+        gap: 6.2em;
         max-width: 69.375rem;
     }
 
