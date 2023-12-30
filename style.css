@@ -255,12 +255,13 @@ span {
     }
 
     .row-2{
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
     }
 
     .review-box{
-        padding: 35px 25px 40px 20px;
+        padding: 40px 15px;
     line-height: 20px;
     font-weight: var(--medium-font);
     }
@@ -273,3 +274,4 @@ span {
         transform: translateY(-16px);
     }
 }
+
