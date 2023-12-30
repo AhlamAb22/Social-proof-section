@@ -216,6 +216,7 @@ span {
     .container{
         max-width: 69.375rem;
         gap: 6rem;
+        padding: 30px;
     }
 
     .row-1{
@@ -224,15 +225,19 @@ span {
     }
 
     .intro{
-        flex-basis: 45%;
+        flex-basis: 445px;
         align-items: start;
         text-align: left;
     }
 
     .heading{
-        font-size: 56px;
+        font-size: 50px;
         line-height: 48px;
         letter-spacing: -2px;
+    }
+
+    .paragraph{
+        letter-spacing: -0.63px;
     }
     
     .rating-box{
