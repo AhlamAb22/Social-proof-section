@@ -215,7 +215,7 @@ span {
     }
     .container{
         max-width: 69.375rem;
-        gap: 3rem;
+        gap: 6rem;
     }
 
     .row-1{
@@ -254,6 +254,10 @@ span {
         flex-direction: row;
     }
 
+    .review-box{
+    line-height: 22px;
+    }
+    
     .review-box.box1{
         transform: translateY(-32px); 
     }
