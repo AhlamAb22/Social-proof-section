@@ -260,7 +260,9 @@ span {
     }
 
     .review-box{
-    line-height: 22px;
+        padding: 35px 25px;
+    line-height: 20px;
+    font-weight: var(--medium-font);
     }
     
     .review-box.box1{
