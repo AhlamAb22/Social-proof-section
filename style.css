@@ -265,11 +265,11 @@ span {
     .row-2{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 25px;
+        gap: 30px;
     }
 
     .review-box{
-    padding: 2.5rem 1.5rem ;
+    padding: 2.5rem 1.4rem ;
     gap: 1.5rem;
     line-height: 22px;
     font-weight: var(--medium-font);
