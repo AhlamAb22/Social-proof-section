@@ -216,7 +216,7 @@ span {
     }
     .container{
         max-width: 71.5rem;
-        gap: 7rem;
+        gap: 5rem;
         padding: 30px;
     }
 
@@ -249,7 +249,7 @@ span {
     .rating-box{
         display: flex;
         flex-direction: row;
-        padding: 15px 45px;
+        padding: 20px 45px;
     }
 
     .rating-box.box1{
@@ -263,11 +263,11 @@ span {
     .row-2{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 30px;
+        gap: 25px;
     }
 
     .review-box{
-    padding: 40px 15px 45px 15px;
+    padding: 2rem 1.6rem ;
     gap: 2rem;
     line-height: 20px;
     font-weight: var(--medium-font);
