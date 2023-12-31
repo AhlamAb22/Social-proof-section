@@ -213,7 +213,7 @@ span {
 
     body{
         background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
-        padding-top: 20px;
+        padding-top: 15px;
     }
     .container{
         max-width: 71.5rem;
