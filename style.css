@@ -137,6 +137,7 @@ max-width: 327px;
 font-size: 19px;
 font-weight: var(--medium-font);
 color: var(--Dark-Grayish-Magenta);
+line-height: 25px;
 }
 
 
@@ -249,7 +250,7 @@ span {
     .rating-box{
         display: flex;
         flex-direction: row;
-        padding: 20px 45px;
+        padding: 15px 45px;
     }
 
     .rating-box.box1{
