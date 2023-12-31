@@ -250,7 +250,7 @@ span {
      .rating-box{
         display: flex;
         flex-direction: row;
-        padding: 20px 30px;
+        padding: 18px 32px;
         gap: 32px;
     }
 
