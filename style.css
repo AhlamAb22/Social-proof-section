@@ -247,10 +247,11 @@ span {
         margin-top: 32px;
     }
     
-    .rating-box{
+     .rating-box{
         display: flex;
         flex-direction: row;
-        padding: 15px 45px;
+        padding: 20px 32px;
+        gap: 32px;
     }
 
     .rating-box.box1{
