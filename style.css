@@ -214,8 +214,8 @@ span {
         background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
     }
     .container{
-        max-width: 72rem;
-        gap: 6rem;
+        max-width: 71.5rem;
+        gap: 7rem;
         padding: 30px;
     }
 
@@ -231,7 +231,7 @@ span {
     }
 
     .heading{
-        font-size: 50px;
+        font-size: 54px;
         line-height: 48px;
         letter-spacing: -2px;
     }
@@ -262,7 +262,7 @@ span {
 
     .review-box{
     padding: 40px 15px 45px 15px;
-        gap: 1.5rem;
+    gap: 2rem;
     line-height: 20px;
     font-weight: var(--medium-font);
     }
@@ -275,4 +275,3 @@ span {
         transform: translateY(-16px);
     }
 }
-
